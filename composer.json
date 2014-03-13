@@ -1,0 +1,29 @@
+{
+  "name": "markokeeffe/yii-sphinx-search",
+  "description": "A Sphinx Search Widget",
+  "authors": [
+    {
+      "name": "Mark O'Keeffe",
+      "email": "mark.ok@me.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "MOK\\SphinxSearch": "src/"
+    },
+    "classmap": [
+      "src/behaviors",
+      "src/commands",
+      "src/components",
+      "src/sphinx-yii/",
+      "src/sphinx-yii/enums/",
+      "src/sphinx-yii/ql/"
+    ],
+    "files": [
+      "src/sphinx-yii/sphinxapi-2.1.1.php"
+    ]
+  }
+}
